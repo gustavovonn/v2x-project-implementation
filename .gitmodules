@@ -1,0 +1,6 @@
+[submodule "Beacon-Confidence"]
+	path = Beacon-Confidence
+	url = https://github.com/gustavovonn/Beacon-Confidence.git
+[submodule "Object-Confidence"]
+	path = Object-Confidence
+	url = https://github.com/gustavovonn/Object-Confidence.git
