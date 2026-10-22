@@ -1,14 +1,15 @@
 # V2X Misbehavior Analysis — Industrial and Vehicular Networks
 
-Two experiments on misbehavior analysis services for V2X, both evaluated offline on the
-[VeReMi Extension](https://zenodo.org/records/20090854) dataset:
+Two experiments on misbehavior analysis services for V2X, both evaluated offline:
 
 - **[Beacon-Confidence](Beacon-Confidence/)**: assigns a confidence to each kinematic beacon (CAM)
   from its physical consistency with the sender's predicted motion. It includes a
-  detection-quality experiment and a computational-cost experiment.
+  detection-quality experiment and a computational-cost experiment, on the
+  [VeReMi Extension](https://zenodo.org/records/20090854) dataset.
 - **[Object-Confidence](Object-Confidence/)**: assigns a confidence to each perceived object in
   CAMs and CPMs. Reports are associated with fused tracks (Hungarian algorithm + UKF), and each
-  track is scored by how consistently the reports agree with it.
+  track is scored by how consistently the reports agree with it. Its CAM/CPM traces come from
+  its Artery dataset generator on the LuST scenario, with VeReMi Extension faults injected offline.
 
 ## Getting the code
 
